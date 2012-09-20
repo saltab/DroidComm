@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<EditText
+    android:id="@+id/textPort"
+    android:layout_width="114dp"
+    android:layout_height="wrap_content"
+    android:layout_x="203dp"
+    android:layout_y="0dp"
+    android:inputType="number|text"
+    android:textSize="16sp" >
+
+    <requestFocus />
+
+    <requestFocus />
+
+</EditText>
+
+<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="305dp"
+    android:layout_x="0dp"
+    android:layout_y="50dp" >
+
+    <TextView
+        android:id="@+id/textOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" />
+
+</ScrollView>
+
+<EditText
+    android:id="@+id/textInput"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="359dp"
+    android:inputType="text"
+    android:textSize="18sp" >
+</EditText>
+
+<Button
+    android:id="@+id/buttonSend"
+    android:layout_width="135dp"
+    android:layout_height="wrap_content"
+    android:layout_x="0dp"
+    android:layout_y="407dp"
+    android:text="Send" />
+
+<Button
+    android:id="@+id/buttonExit"
+    android:layout_width="137dp"
+    android:layout_height="wrap_content"
+    android:layout_x="183dp"
+    android:layout_y="407dp"
+    android:text="Exit" />
+
+<TextView
+    android:id="@+id/viewPort"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_x="3dp"
+    android:layout_y="3dp"
+    android:text="Enter Server Port No."
+    android:textSize="21sp" />
+
+</AbsoluteLayout>
